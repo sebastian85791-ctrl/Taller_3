@@ -255,6 +255,7 @@ public class Calculadora extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(this,
                     "Error: en monedas solo se aceptan numeros enteros positivos",
                     "Error", JOptionPane.ERROR_MESSAGE);
+                // Cambio Etapa 3: Optimizacion y revision de flujos de control.
                 return;
             }
             if (cantidad <= 0) {
